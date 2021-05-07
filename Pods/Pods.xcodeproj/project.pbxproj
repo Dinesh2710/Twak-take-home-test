@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0013E70DD828B42DCC0539EC76C05820 /* Pods-Twak-iOS-TestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CEADDA560045430723721182236725 /* Pods-Twak-iOS-TestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF778BEFC7721E16D5F02EF17376689 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10A75D506418CF290397CA5A103904AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		212A75B71E91BC3CDB8D2272BCA53D14 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 107DAAE7A8015F40720A1E9602CD83DE /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-dummy.m */; };
+		2E34EE00CDD105CCAF4973F50F990E52 /* Pods-Twak-iOS-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28045AFF3EC46269A39353F98E0B365B /* Pods-Twak-iOS-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361CEB997D7566EFF3141BAED99CEFE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		4627935AED721C697210046C88CA8918 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */; };
+		50E9EBE7BA103F4E6C8673295881B3EB /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F1C1A40E9183ACC8D456C18F375526 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E6D6EC168CEA630E9150DE56048363 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */; };
+		65303FAC78F15F3CC8F26B67E550775E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1118FC4BF2349E61D5A97571B401A8C /* Reachability.swift */; };
+		C906B05B85737B7E59FD9E91DFD86393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		D3D652432A06664132825DFBFCA7BB52 /* Pods-Twak-iOS-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B3003A3E31E4D008F581C31A7BC39E /* Pods-Twak-iOS-Test-dummy.m */; };
+		E2A525F9896FE23F153AA26081D22DAD /* Pods-Twak-iOS-TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A3AA74BECE521CF05B5D2529669309 /* Pods-Twak-iOS-TestTests-dummy.m */; };
+		E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF58B756C1B6F83080EB05354E04317B /* ReachabilitySwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0072BB485A7F78508A365230842431C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		7543590159AB4486FA722A013DFBBC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		B8BCFE400E74E1C172BE15F7D236DF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE0CE4AE6A6A03153CC440222C0EE4E;
+			remoteInfo = "Pods-Twak-iOS-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069AA35E898B4C00466D4271509A6343 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		073ACA4DDA4280FAB4C52373FD97AFDF /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		0C86D2A5EBBB8AECE18AEE47DB8E64E1 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		107DAAE7A8015F40720A1E9602CD83DE /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests-dummy.m"; sourceTree = "<group>"; };
+		1DC44471D23398374BE345C48A29BAE6 /* Pods-Twak-iOS-TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twak-iOS-TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D91974CDA62AB3E4C6123BE7D1DF51 /* Pods-Twak-iOS-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twak-iOS-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		2749EE53BBCF0635E2095A1DDC67495B /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28045AFF3EC46269A39353F98E0B365B /* Pods-Twak-iOS-Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twak-iOS-Test-umbrella.h"; sourceTree = "<group>"; };
+		308A4C04538B69B19D6A535A07D7FF7C /* Pods-Twak-iOS-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twak-iOS-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		3AFCDE8B9B2335199FDD76B1B1E1F9D5 /* Pods-Twak-iOS-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twak-iOS-Test-frameworks.sh"; sourceTree = "<group>"; };
+		40A3AA74BECE521CF05B5D2529669309 /* Pods-Twak-iOS-TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twak-iOS-TestTests-dummy.m"; sourceTree = "<group>"; };
+		437C434B7123F468F5F8DE3C1F0D77A4 /* Pods_Twak_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twak_iOS_Test.framework; path = "Pods-Twak-iOS-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD5D945B955D99A6B27F2AE53C16A72 /* Pods-Twak-iOS-TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twak-iOS-TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CE433D3C64D4B62A1F5DB945492EAB2 /* Pods-Twak-iOS-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twak-iOS-Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		5196BB866D3583072230D50FF4092BD5 /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		6E321BD1AF65EED43D5235C3F16AFDE3 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6ED4A2694054BD3320D3F0B4333C4E41 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F32A3BA78B450EE48155F70ACFC0383 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		752D6DC1A32CD7700990DFFCEDF1999D /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests.modulemap"; sourceTree = "<group>"; };
+		7FF778BEFC7721E16D5F02EF17376689 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		80967D4FCABCE113BF15E6F5CE556B81 /* Pods_Twak_iOS_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twak_iOS_TestTests.framework; path = "Pods-Twak-iOS-TestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857AEC11CD839A3399E3B28FCF726DED /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8963E12987DC02B1646A6A9035AEDB68 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A89E79945F619FFCB635D271665728AD /* Pods-Twak-iOS-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Twak-iOS-Test.modulemap"; sourceTree = "<group>"; };
+		ADA56F9856258E950CEE2E741A0C8B87 /* Pods-Twak-iOS-TestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Twak-iOS-TestTests.modulemap"; sourceTree = "<group>"; };
+		B1A578F2ACF102ACD196CE2F988B7C32 /* Pods-Twak-iOS-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twak-iOS-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3ABD190D1A7632DC25F5953C7BB1697 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests-Info.plist"; sourceTree = "<group>"; };
+		B6F1C1A40E9183ACC8D456C18F375526 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests-umbrella.h"; sourceTree = "<group>"; };
+		C3CEADDA560045430723721182236725 /* Pods-Twak-iOS-TestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twak-iOS-TestTests-umbrella.h"; sourceTree = "<group>"; };
+		D1118FC4BF2349E61D5A97571B401A8C /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		D1BD6A01A2056D33084AC0FAAD9F11E7 /* Pods-Twak-iOS-Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twak-iOS-Test-Info.plist"; sourceTree = "<group>"; };
+		D619F0E16526FBAEA21CE49032D77D93 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D71A18A8F37617708AC887DD3B8D6A9D /* Pods-Twak-iOS-TestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twak-iOS-TestTests-Info.plist"; sourceTree = "<group>"; };
+		E3B3003A3E31E4D008F581C31A7BC39E /* Pods-Twak-iOS-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twak-iOS-Test-dummy.m"; sourceTree = "<group>"; };
+		E725169C355ACC42C2E100D06AFB6EEC /* Pods-Twak-iOS-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twak-iOS-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E92D92C7E9F0ADEB20BC1E40C1ED6C9D /* Pods-Twak-iOS-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twak-iOS-Test.release.xcconfig"; sourceTree = "<group>"; };
+		EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF58B756C1B6F83080EB05354E04317B /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		492D2D956531D5755B0FDF4A80085298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361CEB997D7566EFF3141BAED99CEFE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536EEAA6BF4DE570FD6228EF06987902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A75D506418CF290397CA5A103904AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69800570A50482FB1EEEA4BD9FB99E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C906B05B85737B7E59FD9E91DFD86393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A37A51219ED31062DE51A3E139BF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E6D6EC168CEA630E9150DE56048363 /* CoreTelephony.framework in Frameworks */,
+				65303FAC78F15F3CC8F26B67E550775E /* Foundation.framework in Frameworks */,
+				4627935AED721C697210046C88CA8918 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F621761C10451F73C1586FED94CCAC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23CBFC2E922A016B304AE747E772E5B0 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				752D6DC1A32CD7700990DFFCEDF1999D /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.modulemap */,
+				0C86D2A5EBBB8AECE18AEE47DB8E64E1 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-acknowledgements.markdown */,
+				6E321BD1AF65EED43D5235C3F16AFDE3 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-acknowledgements.plist */,
+				107DAAE7A8015F40720A1E9602CD83DE /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-dummy.m */,
+				D619F0E16526FBAEA21CE49032D77D93 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-frameworks.sh */,
+				B3ABD190D1A7632DC25F5953C7BB1697 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-Info.plist */,
+				B6F1C1A40E9183ACC8D456C18F375526 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-umbrella.h */,
+				2749EE53BBCF0635E2095A1DDC67495B /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig */,
+				6F32A3BA78B450EE48155F70ACFC0383 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig */,
+			);
+			name = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests";
+			path = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests";
+			sourceTree = "<group>";
+		};
+		25F621761C10451F73C1586FED94CCAC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */,
+				EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */,
+				8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		505653693C7225FDC5D26391C931661B /* Pods-Twak-iOS-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA56F9856258E950CEE2E741A0C8B87 /* Pods-Twak-iOS-TestTests.modulemap */,
+				4AD5D945B955D99A6B27F2AE53C16A72 /* Pods-Twak-iOS-TestTests-acknowledgements.markdown */,
+				1DC44471D23398374BE345C48A29BAE6 /* Pods-Twak-iOS-TestTests-acknowledgements.plist */,
+				40A3AA74BECE521CF05B5D2529669309 /* Pods-Twak-iOS-TestTests-dummy.m */,
+				D71A18A8F37617708AC887DD3B8D6A9D /* Pods-Twak-iOS-TestTests-Info.plist */,
+				C3CEADDA560045430723721182236725 /* Pods-Twak-iOS-TestTests-umbrella.h */,
+				E725169C355ACC42C2E100D06AFB6EEC /* Pods-Twak-iOS-TestTests.debug.xcconfig */,
+				B1A578F2ACF102ACD196CE2F988B7C32 /* Pods-Twak-iOS-TestTests.release.xcconfig */,
+			);
+			name = "Pods-Twak-iOS-TestTests";
+			path = "Target Support Files/Pods-Twak-iOS-TestTests";
+			sourceTree = "<group>";
+		};
+		5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6A028CF5F5E4DA047C6F7FCE7A7C354 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74D28412995143ACE9EB1EC6DF3AC568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437C434B7123F468F5F8DE3C1F0D77A4 /* Pods_Twak_iOS_Test.framework */,
+				6ED4A2694054BD3320D3F0B4333C4E41 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework */,
+				80967D4FCABCE113BF15E6F5CE556B81 /* Pods_Twak_iOS_TestTests.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773F2CFAD36C67C46D1FDF304CA0FEE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC848F03D02E25DDAA3073F2C62E477 /* Pods-Twak-iOS-Test */,
+				23CBFC2E922A016B304AE747E772E5B0 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests */,
+				505653693C7225FDC5D26391C931661B /* Pods-Twak-iOS-TestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7EA2352CB1A6DF17A65530B0C31D1B95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				857AEC11CD839A3399E3B28FCF726DED /* ReachabilitySwift.modulemap */,
+				EF58B756C1B6F83080EB05354E04317B /* ReachabilitySwift-dummy.m */,
+				069AA35E898B4C00466D4271509A6343 /* ReachabilitySwift-Info.plist */,
+				8963E12987DC02B1646A6A9035AEDB68 /* ReachabilitySwift-prefix.pch */,
+				7FF778BEFC7721E16D5F02EF17376689 /* ReachabilitySwift-umbrella.h */,
+				5196BB866D3583072230D50FF4092BD5 /* ReachabilitySwift.debug.xcconfig */,
+				073ACA4DDA4280FAB4C52373FD97AFDF /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		CAC848F03D02E25DDAA3073F2C62E477 /* Pods-Twak-iOS-Test */ = {
+			isa = PBXGroup;
+			children = (
+				A89E79945F619FFCB635D271665728AD /* Pods-Twak-iOS-Test.modulemap */,
+				23D91974CDA62AB3E4C6123BE7D1DF51 /* Pods-Twak-iOS-Test-acknowledgements.markdown */,
+				4CE433D3C64D4B62A1F5DB945492EAB2 /* Pods-Twak-iOS-Test-acknowledgements.plist */,
+				E3B3003A3E31E4D008F581C31A7BC39E /* Pods-Twak-iOS-Test-dummy.m */,
+				3AFCDE8B9B2335199FDD76B1B1E1F9D5 /* Pods-Twak-iOS-Test-frameworks.sh */,
+				D1BD6A01A2056D33084AC0FAAD9F11E7 /* Pods-Twak-iOS-Test-Info.plist */,
+				28045AFF3EC46269A39353F98E0B365B /* Pods-Twak-iOS-Test-umbrella.h */,
+				308A4C04538B69B19D6A535A07D7FF7C /* Pods-Twak-iOS-Test.debug.xcconfig */,
+				E92D92C7E9F0ADEB20BC1E40C1ED6C9D /* Pods-Twak-iOS-Test.release.xcconfig */,
+			);
+			name = "Pods-Twak-iOS-Test";
+			path = "Target Support Files/Pods-Twak-iOS-Test";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				5D0AA215FB49F5F6E11902E9E88FDB66 /* Pods */,
+				74D28412995143ACE9EB1EC6DF3AC568 /* Products */,
+				773F2CFAD36C67C46D1FDF304CA0FEE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A028CF5F5E4DA047C6F7FCE7A7C354 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				D1118FC4BF2349E61D5A97571B401A8C /* Reachability.swift */,
+				7EA2352CB1A6DF17A65530B0C31D1B95 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F7B7D04C454C16C0015640CF269F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2683278C9608D3E760C8920A4653FF63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0013E70DD828B42DCC0539EC76C05820 /* Pods-Twak-iOS-TestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33099B2799A9E22FE8D6C8BB40CFB3FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E9EBE7BA103F4E6C8673295881B3EB /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5D63228F82B4E0CDE801FEF9C4A89D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E34EE00CDD105CCAF4973F50F990E52 /* Pods-Twak-iOS-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				09F7B7D04C454C16C0015640CF269F7E /* Headers */,
+				9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */,
+				92A37A51219ED31062DE51A3E139BF37 /* Frameworks */,
+				1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DE0CE4AE6A6A03153CC440222C0EE4E /* Pods-Twak-iOS-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86588E18FCF0F696069AAB4D96601312 /* Build configuration list for PBXNativeTarget "Pods-Twak-iOS-Test" */;
+			buildPhases = (
+				3C5D63228F82B4E0CDE801FEF9C4A89D /* Headers */,
+				7159AE2AB1A249189C71335D571C9947 /* Sources */,
+				536EEAA6BF4DE570FD6228EF06987902 /* Frameworks */,
+				10D0F819DE70DA6545684C70AC394167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529515F5693B552A25A9BFBE0CA84665 /* PBXTargetDependency */,
+			);
+			name = "Pods-Twak-iOS-Test";
+			productName = "Pods-Twak-iOS-Test";
+			productReference = 437C434B7123F468F5F8DE3C1F0D77A4 /* Pods_Twak_iOS_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5413DB55D915D56845B7267E5DD2F79 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA41002088F3D68E312BBB07D3010F12 /* Build configuration list for PBXNativeTarget "Pods-Twak-iOS-Test-Twak-iOS-TestUITests" */;
+			buildPhases = (
+				33099B2799A9E22FE8D6C8BB40CFB3FA /* Headers */,
+				C3C10CD64C16A5852121E366AA09FBE3 /* Sources */,
+				69800570A50482FB1EEEA4BD9FB99E7C /* Frameworks */,
+				DA32EEA3844E2B264A278303A09E176B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14B808E9C20A1EA013BB6433140D5DC6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests";
+			productName = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests";
+			productReference = 6ED4A2694054BD3320D3F0B4333C4E41 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0C408986154BB1CE992CCEC13960782 /* Pods-Twak-iOS-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADDAC860D26026DA9F5D90FB9262ECA /* Build configuration list for PBXNativeTarget "Pods-Twak-iOS-TestTests" */;
+			buildPhases = (
+				2683278C9608D3E760C8920A4653FF63 /* Headers */,
+				23FB00667168C6CC191AD62FBE15DB3D /* Sources */,
+				492D2D956531D5755B0FDF4A80085298 /* Frameworks */,
+				8F8E17424A12329B26EE26646469F5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA769EE9337C55D8515A697E7FFD621 /* PBXTargetDependency */,
+			);
+			name = "Pods-Twak-iOS-TestTests";
+			productName = "Pods-Twak-iOS-TestTests";
+			productReference = 80967D4FCABCE113BF15E6F5CE556B81 /* Pods_Twak_iOS_TestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74D28412995143ACE9EB1EC6DF3AC568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE0CE4AE6A6A03153CC440222C0EE4E /* Pods-Twak-iOS-Test */,
+				B5413DB55D915D56845B7267E5DD2F79 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests */,
+				C0C408986154BB1CE992CCEC13960782 /* Pods-Twak-iOS-TestTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D0F819DE70DA6545684C70AC394167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8E17424A12329B26EE26646469F5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA32EEA3844E2B264A278303A09E176B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23FB00667168C6CC191AD62FBE15DB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A525F9896FE23F153AA26081D22DAD /* Pods-Twak-iOS-TestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159AE2AB1A249189C71335D571C9947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D652432A06664132825DFBFCA7BB52 /* Pods-Twak-iOS-Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */,
+				E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C10CD64C16A5852121E366AA09FBE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A75B71E91BC3CDB8D2272BCA53D14 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14B808E9C20A1EA013BB6433140D5DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 0072BB485A7F78508A365230842431C0 /* PBXContainerItemProxy */;
+		};
+		3DA769EE9337C55D8515A697E7FFD621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Twak-iOS-Test";
+			target = 5DE0CE4AE6A6A03153CC440222C0EE4E /* Pods-Twak-iOS-Test */;
+			targetProxy = B8BCFE400E74E1C172BE15F7D236DF6E /* PBXContainerItemProxy */;
+		};
+		529515F5693B552A25A9BFBE0CA84665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 7543590159AB4486FA722A013DFBBC0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A21822144C8234B5D5D4103294FC4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308A4C04538B69B19D6A535A07D7FF7C /* Pods-Twak-iOS-Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9ABC4ECE4615A315434203338D663A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 073ACA4DDA4280FAB4C52373FD97AFDF /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F45E8DB3C91C4FC98FABD5624A2F0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5196BB866D3583072230D50FF4092BD5 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3F91D5F3EA881F7413A2C8B5022C3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92D92C7E9F0ADEB20BC1E40C1ED6C9D /* Pods-Twak-iOS-Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF64A2609D5392D4E38D96B432A6017E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F32A3BA78B450EE48155F70ACFC0383 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6F18DDFCC7BDEBE330524054AC7EF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E725169C355ACC42C2E100D06AFB6EEC /* Pods-Twak-iOS-TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twak-iOS-TestTests/Pods-Twak-iOS-TestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twak-iOS-TestTests/Pods-Twak-iOS-TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7A5FBA9EE6E2D5651ED493996B4AE26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A578F2ACF102ACD196CE2F988B7C32 /* Pods-Twak-iOS-TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twak-iOS-TestTests/Pods-Twak-iOS-TestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twak-iOS-TestTests/Pods-Twak-iOS-TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBFAEDF06AC036DFF726790C9FF65993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2749EE53BBCF0635E2095A1DDC67495B /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADDAC860D26026DA9F5D90FB9262ECA /* Build configuration list for PBXNativeTarget "Pods-Twak-iOS-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F18DDFCC7BDEBE330524054AC7EF06 /* Debug */,
+				E7A5FBA9EE6E2D5651ED493996B4AE26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86588E18FCF0F696069AAB4D96601312 /* Build configuration list for PBXNativeTarget "Pods-Twak-iOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A21822144C8234B5D5D4103294FC4CA /* Debug */,
+				B3F91D5F3EA881F7413A2C8B5022C3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA41002088F3D68E312BBB07D3010F12 /* Build configuration list for PBXNativeTarget "Pods-Twak-iOS-Test-Twak-iOS-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFAEDF06AC036DFF726790C9FF65993 /* Debug */,
+				BF64A2609D5392D4E38D96B432A6017E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F45E8DB3C91C4FC98FABD5624A2F0E5 /* Debug */,
+				6F9ABC4ECE4615A315434203338D663A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

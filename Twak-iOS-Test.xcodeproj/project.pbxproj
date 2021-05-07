@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4C7D70264515D3008C8123 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C7D6F264515D3008C8123 /* ProfileController.swift */; };
+		0D4C7D752645328E008C8123 /* KeyboardHandlingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C7D742645328E008C8123 /* KeyboardHandlingClass.swift */; };
+		0D4C7D902645664C008C8123 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C7D8F2645664C008C8123 /* NetworkManager.swift */; };
+		0D4C7D9926456BDD008C8123 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4C7D9826456BDD008C8123 /* OfflineViewController.swift */; };
+		0DE12F8A2643C99900691ED1 /* Twak_iOS_Test.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 0DE271A826424FCC00E35B49 /* Twak_iOS_Test.xcdatamodeld */; };
+		0DE12FC326440DA200691ED1 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE12FC226440DA200691ED1 /* UserViewModel.swift */; };
+		0DE12FC926440E3B00691ED1 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE12FC826440E3B00691ED1 /* UserController.swift */; };
+		0DE271A026424FCC00E35B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE2719F26424FCC00E35B49 /* AppDelegate.swift */; };
+		0DE271A226424FCC00E35B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE271A126424FCC00E35B49 /* SceneDelegate.swift */; };
+		0DE271A726424FCC00E35B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE271A526424FCC00E35B49 /* Main.storyboard */; };
+		0DE271AC26424FCD00E35B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE271AB26424FCD00E35B49 /* Assets.xcassets */; };
+		0DE271AF26424FCD00E35B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE271AD26424FCD00E35B49 /* LaunchScreen.storyboard */; };
+		0DE271BA26424FCD00E35B49 /* Twak_iOS_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE271B926424FCD00E35B49 /* Twak_iOS_TestTests.swift */; };
+		0DE271C526424FCD00E35B49 /* Twak_iOS_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE271C426424FCD00E35B49 /* Twak_iOS_TestUITests.swift */; };
+		0DE271E326425A8100E35B49 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE271E226425A8100E35B49 /* User.swift */; };
+		0DE271FF2642649900E35B49 /* UserListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE271FE2642649900E35B49 /* UserListVC.swift */; };
+		0DE272272642736700E35B49 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE272252642736700E35B49 /* MBProgressHUD.m */; };
+		0DE272342642AB9300E35B49 /* tableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE272322642AB9300E35B49 /* tableCell.swift */; };
+		0DE272352642AB9300E35B49 /* tableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE272332642AB9300E35B49 /* tableCell.xib */; };
+		0DE2723D2642B3E700E35B49 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE2723C2642B3E700E35B49 /* UtilityClass.swift */; };
+		0DE272482642C62400E35B49 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE272472642C62400E35B49 /* UserProfileVC.swift */; };
+		3B20DDE22E5C19A49DA416A1 /* Pods_Twak_iOS_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15BA77679066F9D7C6F1444 /* Pods_Twak_iOS_TestTests.framework */; };
+		46EC232ABA6F9541FF78F168 /* Pods_Twak_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFB5DDB94307D6ED813B048 /* Pods_Twak_iOS_Test.framework */; };
+		E87C36628A6DA456EA514952 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E631BB772D489E25E29F0B9 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DE271B626424FCD00E35B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DE2719426424FCC00E35B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DE2719B26424FCC00E35B49;
+			remoteInfo = "Twak-iOS-Test";
+		};
+		0DE271C126424FCD00E35B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DE2719426424FCC00E35B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DE2719B26424FCC00E35B49;
+			remoteInfo = "Twak-iOS-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D4C7D6F264515D3008C8123 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0D4C7D742645328E008C8123 /* KeyboardHandlingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandlingClass.swift; sourceTree = "<group>"; };
+		0D4C7D8F2645664C008C8123 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0D4C7D9826456BDD008C8123 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		0DE12FC226440DA200691ED1 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0DE12FC826440E3B00691ED1 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		0DE2719C26424FCC00E35B49 /* Twak-iOS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twak-iOS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE2719F26424FCC00E35B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DE271A126424FCC00E35B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DE271A626424FCC00E35B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DE271A926424FCC00E35B49 /* Twak_iOS_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twak_iOS_Test.xcdatamodel; sourceTree = "<group>"; };
+		0DE271AB26424FCD00E35B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DE271AE26424FCD00E35B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DE271B026424FCD00E35B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE271B526424FCD00E35B49 /* Twak-iOS-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twak-iOS-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE271B926424FCD00E35B49 /* Twak_iOS_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twak_iOS_TestTests.swift; sourceTree = "<group>"; };
+		0DE271BB26424FCD00E35B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE271C026424FCD00E35B49 /* Twak-iOS-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twak-iOS-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE271C426424FCD00E35B49 /* Twak_iOS_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twak_iOS_TestUITests.swift; sourceTree = "<group>"; };
+		0DE271C626424FCD00E35B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DE271E226425A8100E35B49 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0DE271FE2642649900E35B49 /* UserListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListVC.swift; sourceTree = "<group>"; };
+		0DE272242642736600E35B49 /* Twak-iOS-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twak-iOS-Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DE272252642736700E35B49 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0DE272262642736700E35B49 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0DE272322642AB9300E35B49 /* tableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableCell.swift; sourceTree = "<group>"; };
+		0DE272332642AB9300E35B49 /* tableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableCell.xib; sourceTree = "<group>"; };
+		0DE2723C2642B3E700E35B49 /* UtilityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		0DE272472642C62400E35B49 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		2E631BB772D489E25E29F0B9 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF6C3D329282B86E3A6F098 /* Pods-Twak-iOS-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twak-iOS-Test.release.xcconfig"; path = "Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test.release.xcconfig"; sourceTree = "<group>"; };
+		71D933BA3516544ABDFEE366 /* Pods-Twak-iOS-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twak-iOS-TestTests.release.xcconfig"; path = "Target Support Files/Pods-Twak-iOS-TestTests/Pods-Twak-iOS-TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F39B3D68A120ACBFD28FEA7 /* Pods-Twak-iOS-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twak-iOS-Test.debug.xcconfig"; path = "Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		9FEF12355FF7347320153121 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A15BA77679066F9D7C6F1444 /* Pods_Twak_iOS_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twak_iOS_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB5DDB94307D6ED813B048 /* Pods_Twak_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twak_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E845B80576F3AD5FB124CB98 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6C7C6F4A2F327326B7E54A /* Pods-Twak-iOS-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twak-iOS-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Twak-iOS-TestTests/Pods-Twak-iOS-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE2719926424FCC00E35B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EC232ABA6F9541FF78F168 /* Pods_Twak_iOS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE271B226424FCD00E35B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B20DDE22E5C19A49DA416A1 /* Pods_Twak_iOS_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE271BD26424FCD00E35B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C36628A6DA456EA514952 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE12FC726440E2800691ED1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0DE12FC826440E3B00691ED1 /* UserController.swift */,
+				0D4C7D6F264515D3008C8123 /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0DE2719326424FCC00E35B49 = {
+			isa = PBXGroup;
+			children = (
+				0DE2719E26424FCC00E35B49 /* Twak-iOS-Test */,
+				0DE271B826424FCD00E35B49 /* Twak-iOS-TestTests */,
+				0DE271C326424FCD00E35B49 /* Twak-iOS-TestUITests */,
+				0DE2719D26424FCC00E35B49 /* Products */,
+				77E59D4AB56666CD279BC4D2 /* Pods */,
+				BBA0865D4ED74035269E120F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE2719D26424FCC00E35B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE2719C26424FCC00E35B49 /* Twak-iOS-Test.app */,
+				0DE271B526424FCD00E35B49 /* Twak-iOS-TestTests.xctest */,
+				0DE271C026424FCD00E35B49 /* Twak-iOS-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE2719E26424FCC00E35B49 /* Twak-iOS-Test */ = {
+			isa = PBXGroup;
+			children = (
+				0DE12FC726440E2800691ED1 /* Controller */,
+				0DE272232642731B00E35B49 /* External Class */,
+				0DE272062642654400E35B49 /* ViewModels */,
+				0DE271FD2642641800E35B49 /* ViewController */,
+				0DE271E126425A6B00E35B49 /* Models */,
+				0DE2719F26424FCC00E35B49 /* AppDelegate.swift */,
+				0DE271A126424FCC00E35B49 /* SceneDelegate.swift */,
+				0DE271A526424FCC00E35B49 /* Main.storyboard */,
+				0DE271AB26424FCD00E35B49 /* Assets.xcassets */,
+				0DE271AD26424FCD00E35B49 /* LaunchScreen.storyboard */,
+				0DE271B026424FCD00E35B49 /* Info.plist */,
+				0DE271A826424FCC00E35B49 /* Twak_iOS_Test.xcdatamodeld */,
+			);
+			path = "Twak-iOS-Test";
+			sourceTree = "<group>";
+		};
+		0DE271B826424FCD00E35B49 /* Twak-iOS-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE271B926424FCD00E35B49 /* Twak_iOS_TestTests.swift */,
+				0DE271BB26424FCD00E35B49 /* Info.plist */,
+			);
+			path = "Twak-iOS-TestTests";
+			sourceTree = "<group>";
+		};
+		0DE271C326424FCD00E35B49 /* Twak-iOS-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE271C426424FCD00E35B49 /* Twak_iOS_TestUITests.swift */,
+				0DE271C626424FCD00E35B49 /* Info.plist */,
+			);
+			path = "Twak-iOS-TestUITests";
+			sourceTree = "<group>";
+		};
+		0DE271E126425A6B00E35B49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DE271E226425A8100E35B49 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DE271FD2642641800E35B49 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DE272312642AB6700E35B49 /* Cells */,
+				0DE271FE2642649900E35B49 /* UserListVC.swift */,
+				0DE272472642C62400E35B49 /* UserProfileVC.swift */,
+				0D4C7D9826456BDD008C8123 /* OfflineViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0DE272062642654400E35B49 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0DE12FC226440DA200691ED1 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DE272232642731B00E35B49 /* External Class */ = {
+			isa = PBXGroup;
+			children = (
+				0DE272262642736700E35B49 /* MBProgressHUD.h */,
+				0DE272252642736700E35B49 /* MBProgressHUD.m */,
+				0DE272242642736600E35B49 /* Twak-iOS-Test-Bridging-Header.h */,
+				0DE2723C2642B3E700E35B49 /* UtilityClass.swift */,
+				0D4C7D742645328E008C8123 /* KeyboardHandlingClass.swift */,
+				0D4C7D8F2645664C008C8123 /* NetworkManager.swift */,
+			);
+			path = "External Class";
+			sourceTree = "<group>";
+		};
+		0DE272312642AB6700E35B49 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0DE272322642AB9300E35B49 /* tableCell.swift */,
+				0DE272332642AB9300E35B49 /* tableCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		77E59D4AB56666CD279BC4D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F39B3D68A120ACBFD28FEA7 /* Pods-Twak-iOS-Test.debug.xcconfig */,
+				6FF6C3D329282B86E3A6F098 /* Pods-Twak-iOS-Test.release.xcconfig */,
+				E845B80576F3AD5FB124CB98 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig */,
+				9FEF12355FF7347320153121 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig */,
+				FA6C7C6F4A2F327326B7E54A /* Pods-Twak-iOS-TestTests.debug.xcconfig */,
+				71D933BA3516544ABDFEE366 /* Pods-Twak-iOS-TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBA0865D4ED74035269E120F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFB5DDB94307D6ED813B048 /* Pods_Twak_iOS_Test.framework */,
+				2E631BB772D489E25E29F0B9 /* Pods_Twak_iOS_Test_Twak_iOS_TestUITests.framework */,
+				A15BA77679066F9D7C6F1444 /* Pods_Twak_iOS_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DE2719B26424FCC00E35B49 /* Twak-iOS-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE271C926424FCD00E35B49 /* Build configuration list for PBXNativeTarget "Twak-iOS-Test" */;
+			buildPhases = (
+				8E133799A736FABD9EBC98F4 /* [CP] Check Pods Manifest.lock */,
+				0DE2719826424FCC00E35B49 /* Sources */,
+				0DE2719926424FCC00E35B49 /* Frameworks */,
+				0DE2719A26424FCC00E35B49 /* Resources */,
+				0246F20893F6C61651F5FB13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twak-iOS-Test";
+			productName = "Twak-iOS-Test";
+			productReference = 0DE2719C26424FCC00E35B49 /* Twak-iOS-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DE271B426424FCD00E35B49 /* Twak-iOS-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE271CC26424FCD00E35B49 /* Build configuration list for PBXNativeTarget "Twak-iOS-TestTests" */;
+			buildPhases = (
+				AAE74A0156A1F2F18DD40B05 /* [CP] Check Pods Manifest.lock */,
+				0DE271B126424FCD00E35B49 /* Sources */,
+				0DE271B226424FCD00E35B49 /* Frameworks */,
+				0DE271B326424FCD00E35B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE271B726424FCD00E35B49 /* PBXTargetDependency */,
+			);
+			name = "Twak-iOS-TestTests";
+			productName = "Twak-iOS-TestTests";
+			productReference = 0DE271B526424FCD00E35B49 /* Twak-iOS-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DE271BF26424FCD00E35B49 /* Twak-iOS-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE271CF26424FCD00E35B49 /* Build configuration list for PBXNativeTarget "Twak-iOS-TestUITests" */;
+			buildPhases = (
+				5528C32548A9ECDBCF683F67 /* [CP] Check Pods Manifest.lock */,
+				0DE271BC26424FCD00E35B49 /* Sources */,
+				0DE271BD26424FCD00E35B49 /* Frameworks */,
+				0DE271BE26424FCD00E35B49 /* Resources */,
+				13004E0A05DBEB913FC93810 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE271C226424FCD00E35B49 /* PBXTargetDependency */,
+			);
+			name = "Twak-iOS-TestUITests";
+			productName = "Twak-iOS-TestUITests";
+			productReference = 0DE271C026424FCD00E35B49 /* Twak-iOS-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DE2719426424FCC00E35B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					0DE2719B26424FCC00E35B49 = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+					0DE271B426424FCD00E35B49 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0DE2719B26424FCC00E35B49;
+					};
+					0DE271BF26424FCD00E35B49 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0DE2719B26424FCC00E35B49;
+					};
+				};
+			};
+			buildConfigurationList = 0DE2719726424FCC00E35B49 /* Build configuration list for PBXProject "Twak-iOS-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DE2719326424FCC00E35B49;
+			productRefGroup = 0DE2719D26424FCC00E35B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE2719B26424FCC00E35B49 /* Twak-iOS-Test */,
+				0DE271B426424FCD00E35B49 /* Twak-iOS-TestTests */,
+				0DE271BF26424FCD00E35B49 /* Twak-iOS-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE2719A26424FCC00E35B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE12F8A2643C99900691ED1 /* Twak_iOS_Test.xcdatamodeld in Resources */,
+				0DE271AF26424FCD00E35B49 /* LaunchScreen.storyboard in Resources */,
+				0DE271AC26424FCD00E35B49 /* Assets.xcassets in Resources */,
+				0DE272352642AB9300E35B49 /* tableCell.xib in Resources */,
+				0DE271A726424FCC00E35B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE271B326424FCD00E35B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE271BE26424FCD00E35B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0246F20893F6C61651F5FB13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twak-iOS-Test/Pods-Twak-iOS-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13004E0A05DBEB913FC93810 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twak-iOS-Test-Twak-iOS-TestUITests/Pods-Twak-iOS-Test-Twak-iOS-TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5528C32548A9ECDBCF683F67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twak-iOS-Test-Twak-iOS-TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E133799A736FABD9EBC98F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twak-iOS-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE74A0156A1F2F18DD40B05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twak-iOS-TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE2719826424FCC00E35B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE271A026424FCC00E35B49 /* AppDelegate.swift in Sources */,
+				0DE12FC326440DA200691ED1 /* UserViewModel.swift in Sources */,
+				0DE272482642C62400E35B49 /* UserProfileVC.swift in Sources */,
+				0D4C7D902645664C008C8123 /* NetworkManager.swift in Sources */,
+				0DE12FC926440E3B00691ED1 /* UserController.swift in Sources */,
+				0DE2723D2642B3E700E35B49 /* UtilityClass.swift in Sources */,
+				0D4C7D70264515D3008C8123 /* ProfileController.swift in Sources */,
+				0DE272342642AB9300E35B49 /* tableCell.swift in Sources */,
+				0D4C7D9926456BDD008C8123 /* OfflineViewController.swift in Sources */,
+				0DE271E326425A8100E35B49 /* User.swift in Sources */,
+				0DE271A226424FCC00E35B49 /* SceneDelegate.swift in Sources */,
+				0DE271FF2642649900E35B49 /* UserListVC.swift in Sources */,
+				0DE272272642736700E35B49 /* MBProgressHUD.m in Sources */,
+				0D4C7D752645328E008C8123 /* KeyboardHandlingClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE271B126424FCD00E35B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE271BA26424FCD00E35B49 /* Twak_iOS_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DE271BC26424FCD00E35B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE271C526424FCD00E35B49 /* Twak_iOS_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DE271B726424FCD00E35B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DE2719B26424FCC00E35B49 /* Twak-iOS-Test */;
+			targetProxy = 0DE271B626424FCD00E35B49 /* PBXContainerItemProxy */;
+		};
+		0DE271C226424FCD00E35B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DE2719B26424FCC00E35B49 /* Twak-iOS-Test */;
+			targetProxy = 0DE271C126424FCD00E35B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DE271A526424FCC00E35B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE271A626424FCC00E35B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DE271AD26424FCD00E35B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DE271AE26424FCD00E35B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DE271C726424FCD00E35B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DE271C826424FCD00E35B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DE271CA26424FCD00E35B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F39B3D68A120ACBFD28FEA7 /* Pods-Twak-iOS-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUU3EKCA83;
+				INFOPLIST_FILE = "Twak-iOS-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymapp.formassist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Twak-iOS-Test/External Class/Twak-iOS-Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DE271CB26424FCD00E35B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF6C3D329282B86E3A6F098 /* Pods-Twak-iOS-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VUU3EKCA83;
+				INFOPLIST_FILE = "Twak-iOS-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gymapp.formassist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Twak-iOS-Test/External Class/Twak-iOS-Test-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DE271CD26424FCD00E35B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA6C7C6F4A2F327326B7E54A /* Pods-Twak-iOS-TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Twak-iOS-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twak.test.Twak-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twak-iOS-Test.app/Twak-iOS-Test";
+			};
+			name = Debug;
+		};
+		0DE271CE26424FCD00E35B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D933BA3516544ABDFEE366 /* Pods-Twak-iOS-TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Twak-iOS-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twak.test.Twak-iOS-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twak-iOS-Test.app/Twak-iOS-Test";
+			};
+			name = Release;
+		};
+		0DE271D026424FCD00E35B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E845B80576F3AD5FB124CB98 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Twak-iOS-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twak.test.Twak-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Twak-iOS-Test";
+			};
+			name = Debug;
+		};
+		0DE271D126424FCD00E35B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEF12355FF7347320153121 /* Pods-Twak-iOS-Test-Twak-iOS-TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Twak-iOS-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twak.test.Twak-iOS-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Twak-iOS-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE2719726424FCC00E35B49 /* Build configuration list for PBXProject "Twak-iOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE271C726424FCD00E35B49 /* Debug */,
+				0DE271C826424FCD00E35B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE271C926424FCD00E35B49 /* Build configuration list for PBXNativeTarget "Twak-iOS-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE271CA26424FCD00E35B49 /* Debug */,
+				0DE271CB26424FCD00E35B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE271CC26424FCD00E35B49 /* Build configuration list for PBXNativeTarget "Twak-iOS-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE271CD26424FCD00E35B49 /* Debug */,
+				0DE271CE26424FCD00E35B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE271CF26424FCD00E35B49 /* Build configuration list for PBXNativeTarget "Twak-iOS-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE271D026424FCD00E35B49 /* Debug */,
+				0DE271D126424FCD00E35B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DE271A826424FCC00E35B49 /* Twak_iOS_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DE271A926424FCC00E35B49 /* Twak_iOS_Test.xcdatamodel */,
+			);
+			currentVersion = 0DE271A926424FCC00E35B49 /* Twak_iOS_Test.xcdatamodel */;
+			path = Twak_iOS_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0DE2719426424FCC00E35B49 /* Project object */;
+}
